@@ -2,25 +2,32 @@
     "manifest_version": 2,
     "name": "华农选课助手",
     "version": "1.0",
+
     "description": "华农正方系统选课助手",
+    "homepage_url": "https://github.com/ryuzheng/SCAU-Course-assistant",
+    "author": "Ryu Zheng",
+
     "background": {
         "scripts": [
             "js/background.js"
         ]
     },
+
     "icons": {
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
     },
+
     "browser_action": {
         "default_icon": {
-            "19": "images/icon19.png",
-            "38": "images/icon38.png"
+            "19": "images/icon.png",
+            "38": "images/icon.png"
         },
-        "default_title": "捅一下奶牛",
+        "default_title": "华农选课助手",
         "default_popup": "popup.html"
     },
+
     "permissions": [
         "contextMenus"
     ]

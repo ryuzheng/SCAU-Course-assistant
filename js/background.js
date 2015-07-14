@@ -1,6 +1,6 @@
 chrome.contextMenus.create({
     'type':'normal',
-    'title':'用"%s"捅一下奶牛',
+    'title':'用"%s"捅奶牛一下',
     'contexts':['selection'],
     'id':'cn',
     'onclick':search
